@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
         mData.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                 Weather weather = new Weather();
-                weather = dataSnapshot.getValue(Weather.class);
+                 WeatherInfo weatherInfo = new WeatherInfo();
+                weatherInfo = dataSnapshot.getValue(WeatherInfo.class);
                 //Log.d("nhan",weather.toString());
 
             }

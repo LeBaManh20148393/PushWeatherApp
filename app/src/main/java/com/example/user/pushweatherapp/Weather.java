@@ -1,7 +1,7 @@
 package com.example.user.pushweatherapp;
 
 public class Weather {
-    String Selsius;
+    String Celsius;
     String City;
     String Cloud;
     String Country;
@@ -14,8 +14,8 @@ public class Weather {
     public Weather() {
     }
 
-    public Weather(String selsius, String city, String cloud, String country, String description, String humidity, String lastUpdate, String weatherIcon, String wild) {
-        Selsius = selsius;
+    public Weather(String celsius, String city, String cloud, String country, String description, String humidity, String lastUpdate, String weatherIcon, String wild) {
+        Celsius = celsius;
         City = city;
         Cloud = cloud;
         Country = country;
@@ -26,12 +26,12 @@ public class Weather {
         Wild = wild;
     }
 
-    public String getSelsius() {
-        return Selsius;
+    public String getCelsius() {
+        return Celsius;
     }
 
-    public void setSelsius(String selsius) {
-        Selsius = selsius;
+    public void setCelsius(String celsius) {
+        Celsius = celsius;
     }
 
     public String getCloud() {
